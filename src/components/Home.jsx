@@ -5,6 +5,7 @@ const Home = () => {
     <div>
       home icon
       <button><Link to="/bubble">Bubble</Link></button>
+      <button><Link to="/selection">Selection</Link></button>
     </div>
   )
 }
