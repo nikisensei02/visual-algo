@@ -87,7 +87,7 @@ const Bubble = () => {
             alert("please enter some data!!");
             return;
         }
-        if(elements.size > 10){
+        if(elements.length > 10){
             alert("please enter data less than 10 digit data!!");
             return;
         }
@@ -111,7 +111,7 @@ const Bubble = () => {
     }
 
     return (
-        <div className="flex justify-center items-top  p-4 bg-gray-400 min-h-screen">
+        <div className="flex justify-center items-top p-4 bg-gray-400 min-h-screen">
             <div className="border-2 p-6 mt-[10vw] rounded min-w-[30vw] min-h-[20vw]">
                 <div className="">
                     <h1 className="text-center text-2xl m-2">Bubble Sort</h1>

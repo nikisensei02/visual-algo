@@ -93,6 +93,10 @@ const Insertion = () => {
             alert("please enter some data!!");
             return;
         }
+        if(elements.length > 10){
+            alert("please enter data less than 10 digit data!!");
+            return;
+        }
         const arrayFromElements = elements.split('');
         for (let i = 0; i < arrayFromElements.length; i++) {
             if (isNaN(arrayFromElements[i]) || arrayFromElements[i].trim() === '') {
