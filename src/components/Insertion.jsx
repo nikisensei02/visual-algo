@@ -83,7 +83,7 @@ const Insertion = () => {
         setElements(e.target.value);
     };
     const handleReset = () => {
-        location.reload(0);
+        window.location.reload();
     };
     const handleInputMode = () => {
         setChangeInput(changeInput => !changeInput);
